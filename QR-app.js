@@ -23812,6 +23812,7 @@ __decorate3([
   property.object()
 ], HitTestLocation.prototype, "camera", void 0);
 
+<<<<<<< HEAD
 // js/MenuCarousel.js
 var MenuCarousel = class extends Component3 {
   currentIndex = 0;
@@ -23921,6 +23922,8 @@ __publicField(MenuCarousel, "Properties", {
   startIndex: Property.int(0)
 });
 
+=======
+>>>>>>> af3c6780c2d0f656ee796a5a822b4cccee4aa033
 // js/button-end-ar-session.ts
 var ButtonEndARSession = class extends Component3 {
   xrEndButton;
@@ -28493,7 +28496,10 @@ arSession.onARSessionReady.add(() => {
   startImageCamera();
 });
 engine2.registerComponent(ARImageTrackingCamera);
+<<<<<<< HEAD
 engine2.registerComponent(MenuCarousel);
+=======
+>>>>>>> af3c6780c2d0f656ee796a5a822b4cccee4aa033
 engine2.registerComponent(ButtonEndARSession);
 engine2.registerComponent(ButtonStartARSession);
 engine2.registerComponent(ImageTrackingExample);
